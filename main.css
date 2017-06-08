@@ -1,0 +1,288 @@
+html {
+
+}
+
+body {
+  background: url(images/confectionary.png);
+  font-family: /*Avantgarde, sans-serif;*/FreeMono, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  /*margin-top: 2em;
+  margin-bottom: 2em;*/
+}
+
+#cd-timeline::before{
+  /*This is the vertical line*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 100%;
+  width: 3px;
+  margin-left: 5%;
+  background: #adad85;
+}
+
+#blackbar {
+  border-top: 10px solid grey;
+}
+
+.cd-timeline-content {
+  text-align: right;
+  font-size: 8.3px;
+}
+
+.cd-timeline-content li {
+  font-style: italic;
+  font-size: 15px;
+  color: #1a53ff;
+}
+
+.cd-timeline-content p {
+  font-size: 12.5px;
+  color: #809fff;
+  padding-bottom: 10px;
+}
+
+.logo a, .categories a {
+  text-decoration:none;
+}
+
+.logo {
+  float: left;
+  margin: 5px 0 0 10px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #d6d6c2;
+}
+
+.logo a {
+  color: #4d88ff;
+}
+
+.logo p {
+  margin: 0 0 0 0;
+}
+
+.categories {
+  text-align: right;
+}
+
+.categories a {
+  color: #4d88ff;
+}
+
+.categories li {
+
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 10px;
+  /*float: right;*/
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 2px;
+  text-align: center;
+  background-color:  #d6d6c2;
+  font-size: 15px;
+  vertical-align: text-top;
+}
+
+.content {
+  display:block;
+  background: url(images/seigaiha.png);
+  text-align: center;
+  padding: 25px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1024px;
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+}
+
+.content h1 {
+  font-style: italic;
+  font-size: 25px;
+  color: #0039e6;
+}
+
+.content h2 {
+  font-style: normal;
+  font-size: 20px;
+  color: #1a53ff;
+}
+
+.content h3 {
+  font-size: 17.5px;
+  color: #4d79ff;
+}
+
+.content p {
+  font-style: oblique;
+  font-size: 15px;
+  color: #809fff;
+}
+
+.content img {
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+
+.contentab {
+  display:block;
+  background: url(images/seigaiha.png);
+  text-align: center;
+  padding: 25px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1024px;
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+}
+
+.contentab h1 {
+  font-style: italic;
+  font-size: 25px;
+  color: #0039e6;
+}
+
+.contentab h2 {
+  font-style: normal;
+  font-size: 20px;
+  color: #1a53ff;
+}
+
+.contentab ul {
+  list-style-type: none;
+}
+
+.contentab li {
+  text-align: center;
+  font-size: 12.5px;
+  color: #99b3ff;
+}
+
+.contentab p {
+  font-style: oblique;
+  font-size: 15px;
+  color: #809fff;
+}
+
+.contentp {
+  display:block;
+  background: url(images/seigaiha.png);
+  text-align: center;
+  padding: 25px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1024px;
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+}
+
+.contentp h1 {
+  font-style: italic;
+  font-size: 25px;
+  color: #0039e6;
+}
+
+.contentp h2 {
+  font-style: normal;
+  font-size: 20px;
+  color: #1a53ff;
+}
+
+.contentp h3 {
+  font-size: 17.5px;
+  color: #4d79ff;
+}
+
+.contentp p {
+  font-style: oblique;
+  font-size: 15px;
+  color: #809fff;
+}
+
+.contenttime {
+  display:block;
+  background: url(images/seigaiha.png);
+  text-align: center;
+  padding: 10px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1024px;
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+}
+
+.copyright {
+  background-color: grey;
+}
+
+.copyright p {
+  font-style: italic;
+  font-size: 13px;
+  text-align: right;
+}
+a:hover {
+  color: #ffa64d;
+}
+
+a:active {
+  color: #ff1a1a;
+  text-decoration: underline;
+}
+
+.set1, .set2, .set3, .set4{
+  overflow: hidden;
+  border: 2px solid grey;
+  border-radius: 30px;
+  display: flex;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 10px;
+}
+
+.set1 img, .set3 img {
+  float: left;
+  border: 3px solid grey;
+  border-radius: 50px;
+}
+
+.set2 img, .set4 img {
+  float: right;
+  border: 3px solid grey;
+  border-radius: 50px;
+}
+
+.set1 img, .set3 img {
+  margin: 20px 0 20px 10px;
+}
+
+.set2 img, .set4 img {
+  margin: 20px 10px 20px 0;
+}
+
+.set1 p, .set2 p, .set3 p, .set4 p{
+  margin-top: 50px;
+  font-size: 13px;
+}
+
+/*---Media Queries Satrt---*/
+
+@media screen and (min-width: 320px){
+
+}
+
+/*---Media Queries End---*/
