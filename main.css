@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: url(images/confectionary.png);
+  background: url(confectionary.png);
   font-family: /*Avantgarde, sans-serif;*/FreeMono, monospace;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .content {
   display:block;
-  background: url(images/seigaiha.png);
+  background: url(seigaiha.png);
   text-align: center;
   padding: 25px;
   margin: 40px auto;
@@ -125,7 +125,7 @@ body {
 
 .contentab {
   display:block;
-  background: url(images/seigaiha.png);
+  background: url(seigaiha.png);
   text-align: center;
   padding: 25px;
   margin: 40px auto;
@@ -165,7 +165,7 @@ body {
 
 .contentp {
   display:block;
-  background: url(images/seigaiha.png);
+  background: url(seigaiha.png);
   text-align: center;
   padding: 25px;
   margin: 40px auto;
@@ -200,7 +200,7 @@ body {
 
 .contenttime {
   display:block;
-  background: url(images/seigaiha.png);
+  background: url(seigaiha.png);
   text-align: center;
   padding: 10px;
   margin: 40px auto;
