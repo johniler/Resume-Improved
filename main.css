@@ -40,7 +40,9 @@ body {
 
 .logo {
   float: left;
-  margin: 5px 0 0 10px;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
   border: 2px solid grey;
   border-radius: 50%;
   padding: 3px;
@@ -399,6 +401,7 @@ a:active {
   .set3 p{
     margin-top: 40px;
   }
+
   #cd-timeline::before{
     /*This is the vertical line*/
     content: '';
@@ -412,5 +415,4 @@ a:active {
   }
 
 }
-
 /*---Media Queries End---*/
